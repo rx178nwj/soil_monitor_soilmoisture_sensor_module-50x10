@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -38,3 +39,39 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+=======
+# .gitignoreファイルを作成
+cat > .gitignore << 'EOF'
+# KiCad backup files
+*.bak
+*.bck
+*-bak
+*-backup
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad temporary files
+*~
+*.tmp
+*.cache
+fp-info-cache
+*-cache.lib
+
+# Auto-save files
+*.auto_saved
+
+# Rescue backup files
+*-save.pro
+*-save.kicad_pro
+
+# KiCad lock files
+*.lck
+*.lock
+
+# Output files (generate these as needed)
+*.zip
+*.gerber
+*.drl
+*.pdf
+EOF
+>>>>>>> 66e4934 (Init commit : KiCad project)

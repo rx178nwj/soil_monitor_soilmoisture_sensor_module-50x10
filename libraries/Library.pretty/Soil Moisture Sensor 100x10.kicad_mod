@@ -1,0 +1,163 @@
+(footprint "Soil Moisture Sensor 100x10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8b0cbbd-d932-4347-8aa0-e7e8c4894ec2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Soil Moisture Sensor 100x10"
+		(at 0 -16.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "444fec5a-306f-411a-a269-ac880d01ecdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07e1cdbd-5bee-4be5-b9ab-40a13230ce11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12c76665-55d7-4ee4-ae99-24b725077fcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 47)
+		(end -3.5 -2.5)
+		(stroke
+			(width 1.5)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "858dbebd-ed16-4bff-a38b-79cb06daf1a0")
+	)
+	(fp_line
+		(start 0 -1)
+		(end 0 47)
+		(stroke
+			(width 3.5)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "e759c175-82e6-453a-aa94-82189702ae88")
+	)
+	(fp_line
+		(start 3.5 47)
+		(end 3.5 -2.5)
+		(stroke
+			(width 1.5)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "96978513-c7af-4a8a-b822-4ee735bfb8d4")
+	)
+	(fp_arc
+		(start 3.5 47)
+		(mid 0 50.5)
+		(end -3.5 47)
+		(stroke
+			(width 1.5)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "61ce8917-606d-472b-bba7-9342f11b8ee4")
+	)
+	(fp_line
+		(start -7.5 0)
+		(end 7.5 0)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f303e82-c911-47d6-9c4d-767d8ff2285a")
+	)
+	(fp_text user "Soil Moisture Sensor 75 x 10"
+		(at 0.7 37.7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b42de02c-8a25-4301-b18a-eb882a2d2b3d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ffb0daf1-dbf5-4695-87b3-72c1a84085f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -3.2)
+		(size 2.4525 1.27)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin -10)
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "e6b6e1c3-04d2-4bdc-bb5a-dfe2d1983680")
+	)
+	(pad "2" smd roundrect
+		(at -3.5 -3.2)
+		(size 2.5 1.27)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "2bd369dc-78bb-4b38-9ab8-219d3a2ed270")
+	)
+	(pad "2" smd roundrect
+		(at 3.5 -3.2)
+		(size 2.5 1.27)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin -10)
+		(solder_paste_margin -10)
+		(thermal_bridge_angle 45)
+		(uuid "3c0d20c6-6261-4da9-8c55-d71d65a4d640")
+	)
+	(embedded_fonts no)
+)

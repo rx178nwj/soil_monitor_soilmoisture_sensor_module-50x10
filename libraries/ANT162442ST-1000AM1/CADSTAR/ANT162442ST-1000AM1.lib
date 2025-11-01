@@ -1,0 +1,16 @@
+.ANT162442ST-1000AM1 :1 ;Antenna Multilayer 2484MHz Automotive 6-Pin Case 0603(1608Metric) T/R, 2400 to 2484MHz, 3 at 2400 to 2484MHz, -40 to 85C
+ANT162442ST1000AM1
+*STM ANT
+*NGS
+*PLB 1="RADIATOR ELECTRODE" 2="DUMMY PAD_1" 4="FEED POINT" 5="DUMMY PAD_2"
+*MXP 4
+*DFN ANT162442ST-1000AM1
+~!Mouser Part Number (810-ANT162442ST10AM1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/ANT162442ST-1000AM1?qs=OlC7AqGiEDneGgfYOKlmmw%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (ANT162442ST-1000AM1)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/rf/rf/antenna/catalog/rf_ant_ant162442st-1000am1_summary_en.pdf)
+~!Height (0.4mm)
+~!3D_Model (ANT162442ST-1000AM1)
+ANT162442ST-1000AM1
+1.1!U 2.1!U 4.1!U 5.1!U 

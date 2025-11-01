@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ANT162442ST-1000AM1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-30-22:32:57)
+    (mountForm default
+        (footprintRef "ANT162442ST1000AM1")
+        (spec "System")
+    )
+)

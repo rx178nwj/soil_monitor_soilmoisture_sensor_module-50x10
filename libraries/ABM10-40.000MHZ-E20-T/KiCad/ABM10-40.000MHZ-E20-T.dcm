@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABM10-40.000MHZ-E20-T
+D CERAMIC SMD ULTRA MINIATURE QUARTZ CRYSTAL
+K
+F https://abracon.com/Resonators/ABM10.pdf
+$ENDCMP
+#
+#End Doc Library

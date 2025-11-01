@@ -1,0 +1,130 @@
+(footprint "Soil_Monitor_MainBorad_100x10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb4e9719-1c1c-4739-ab53-a39d695d9575")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Soil_Monitor_MainBorad"
+		(at 0.1 -14.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "699d213e-5251-4e16-bb54-90faf0f03c24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1 -15.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "644cba65-2518-4b80-ae81-275a310a4845")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 -15.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84201568-81ad-418d-bcda-05376a65d3bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 0)
+		(end -10 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a04a6bad-cb99-4c90-a4c3-7cd615c3ee92")
+	)
+	(fp_line
+		(start -5 45)
+		(end -5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e56c98ec-bcd0-44fc-a2f0-22c94b690585")
+	)
+	(fp_line
+		(start -0.000341 49.999658)
+		(end -4.999658 45.000341)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c754c180-6573-449c-9a3d-4a760640623c")
+	)
+	(fp_line
+		(start 0.001936 49.998063)
+		(end 4.998063 45.001936)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea082aef-6360-4db0-990e-83bb136e3daa")
+	)
+	(fp_line
+		(start 5 0)
+		(end 5 45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d8ac32d5-0888-478d-b110-2651180d5a1e")
+	)
+	(fp_line
+		(start 5 0)
+		(end 10 -5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eb104a95-e0e4-4969-bb92-8f5ae53fc7fa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 -13.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bcf4b8c5-9a71-494a-a627-f5ddd9180aec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

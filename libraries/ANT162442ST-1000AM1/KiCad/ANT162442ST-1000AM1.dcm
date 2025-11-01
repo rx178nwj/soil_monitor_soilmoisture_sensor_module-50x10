@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ANT162442ST-1000AM1
+D Antenna Multilayer 2484MHz Automotive 6-Pin Case 0603(1608Metric) T/R, 2400 to 2484MHz, 3 at 2400 to 2484MHz, -40 to 85C
+K
+F https://product.tdk.com/system/files/dam/doc/product/rf/rf/antenna/catalog/rf_ant_ant162442st-1000am1_summary_en.pdf
+$ENDCMP
+#
+#End Doc Library

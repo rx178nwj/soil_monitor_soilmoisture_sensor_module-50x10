@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ANT162442ST_1000AM1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "ANT162442ST-1000AM1" (!) = "", "ANT162442ST1000AM1", "Other", "810-ANT162442ST10AM1", "https://www.mouser.co.uk/ProductDetail/TDK/ANT162442ST-1000AM1?qs=OlC7AqGiEDneGgfYOKlmmw%3D%3D", "Antenna Multilayer 2484MHz Automotive 6-Pin Case 0603(1608Metric) T/R, 2400 to 2484MHz, 3 at 2400 to 2484MHz, -40 to 85C", "https://product.tdk.com/system/files/dam/doc/product/rf/rf/antenna/catalog/rf_ant_ant162442st-1000am1_summary_en.pdf", "0.4 mm"
+END_PART
+
+END.

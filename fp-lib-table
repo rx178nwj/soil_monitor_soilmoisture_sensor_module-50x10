@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "5077CR-16SMC2-BK-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/5077CR-16SMC2-BK-TR.pretty")(options "")(descr ""))
+  (lib (name "ANT162442ST-1000AM1")(type "KiCad")(uri "${KIPRJMOD}/libraries/ANT162442ST-1000AM1.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/libraries/ABM10-40.000MHZ-E20-T/KiCad.pretty")(options "")(descr ""))
+  (lib (name "ABM10-40")(type "KiCad")(uri "${KIPRJMOD}/libraries/ABM10-40.pretty")(options "")(descr ""))
+  (lib (name "タクトスイッチ")(type "KiCad")(uri "${KIPRJMOD}/libraries/タクトスイッチ.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/libraries/Library.pretty")(options "")(descr ""))
+  (lib (name "BF@kicad")(type "KiCad")(uri "${KIPRJMOD}/libraries/PCB-RGB-LED-276-M5Atom-main/BF@kicad.pretty")(options "")(descr ""))
+)

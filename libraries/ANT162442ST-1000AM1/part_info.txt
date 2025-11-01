@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=ANT162442ST-1000AM1
+PartCategory=Antenna
+PackageCategory=Other
+PinCount=4
+Version=4.2
+Released=2021-07-30 10:36:33
+Downloaded=2025-07-02 15:33:38
+3D=Y

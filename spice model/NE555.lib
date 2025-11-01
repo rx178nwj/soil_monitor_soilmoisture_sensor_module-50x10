@@ -1,0 +1,45 @@
+.SUBCKT UA555 trigger output reset control threshold dishcharge vsupply gnd
+* TR O R F TH D V+ V-
+* Taken from the Fairchild data book (1982) page 9-3.
+* SYM=UA555
+Q4 25 2 3 QP
+Q5 gnd 6 3 QP
+Q6 6 6 8 QP
+R1 9 vsupply 4.7K
+R2 3 vsupply 830
+R3 8 vsupply 4.7K
+Q7 2 threshold 5 QN
+Q8 2 5 17 QN
+Q9 6 4 17 QN
+Q10 6 control 4 QN
+Q11 12 20 10 QP
+R4 10 vsupply 1K
+Q12 22 11 12 QP
+Q13 14 13 12 QP
+Q14 gnd 32 11 QP
+Q15 14 18 13 QP
+R5 14 gnd 100K
+R6 22 gnd 100K
+R7 17 gnd 10K
+Q16 dishcharge 15 gnd QN
+Q17 15 reset 31 QP
+R8 18 control 5K
+R9 18 gnd 5K
+R10 vsupply control 5K
+R11 31 gnd 220K
+Q18 20 20 vsupply QP
+Q19 output 22 20 QP
+Q20 24 22 25 QN
+Q21 output 24 gnd QN
+D1 24 25 DX
+R12 25 gnd 220K
+Q22 31 15 gnd QN
+R13 32 31 4.7K
+Q23 32 gnd gnd QN
+D2 11 13 DX
+Q24 11 14 18 QP
+D3 output vsupply DX
+.MODEL QP PNP (level=1 BF=20 BR=0.02 RC=4 RB=25 IS=1.0E-14 VA=50 NE=2 CJE=12.4P VJE=1.1 MJE=.5 CJC=4.02P VJC=.3 MJC=.3 TF=229P TR=159N)
+.MODEL QN NPN (level=1 IS=5.07F NF=1 BF=100 VAF=161 IKF=30M ISE=3.9P NE=2 BR=4 NR=1 VAR=16 IKR=45M RE=1.03 RB=4.12 RC=.412 XTB=1.5 CJE=12.4P VJE=1.1 MJE=.5 CJC=4.02P VJC=.3 MJC=.3 TF=229P TR=959P)
+.MODEL DX D (level=1 IS=1.0E-14)
+.ENDS

@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ANT162442ST-1000AM1"
+   (description "Antenna Multilayer 2484MHz Automotive 6-Pin Case 0603(1608Metric) T/R, 2400 to 2484MHz, 3 at 2400 to 2484MHz, -40 to 85C")
+   (family "ANA")
+   (package "ANT162442ST1000AM1")
+   (attribute "Datasheet Link" "https://product.tdk.com/system/files/dam/doc/product/rf/rf/antenna/catalog/rf_ant_ant162442st-1000am1_summary_en.pdf")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Mouser Part Number" "810-ANT162442ST10AM1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/ANT162442ST-1000AM1?qs=OlC7AqGiEDneGgfYOKlmmw%3D%3D")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "ANT162442ST-1000AM1")
+   (gate
+    (symbol "ANT162442ST-1000AM1")
+    (pin "RADIATOR_ELECTRODE" 1 PS)
+    (pin "DUMMY_PAD_1" 2 PS)
+    (pin "FEED_POINT" 4 PS)
+    (pin "DUMMY_PAD_2" 5 PS)
+   )
+  )
+  (symbol "ANT162442ST-1000AM1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 800) (pt 2000 800) (pt 2000 -800) (pt 200 -800) (pt 200 800) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -1000) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 1000) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ANT162442ST1000AM1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 0.4)
+      (pt 0.8 0.4)
+      (pt 0.8 -0.4)
+      (pt -0.8 -0.4)
+      (pt -0.8 0.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.8 -1.4)
+      (pt 1.8 -1.4)
+      (pt 1.8 1.4)
+      (pt -1.8 1.4)
+      (pt -1.8 -1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.5 0)
+      (arc (pt -1.500 0.000) (pt -1.500 -0.050) (pt -1.400 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.4 0)
+      (arc (pt -1.400 0.000) (pt -1.500 -0.050) (pt -1.400 0.050) (start 180.0) (sweep .0))
+      (pt -1.5 0)
+      (arc (pt -1.500 0.000) (pt -1.500 -0.050) (pt -1.400 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.4 0))))
+   (leg 1 (pt -0.625 0.000) (padstack 0))
+   (leg 2 (pt 0.000 -0.235) (padstack 2))
+   (leg 4 (pt 0.625 0.000) (padstack 0))
+   (leg 5 (pt 0.000 0.235) (padstack 4))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.350 0.800 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.260 0.600 0 0 0.000))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 0.260 0.600 0 0 0.000))
+   )
+   (model "ANT162442ST-1000AM1.stp"
+    (euler -90 180 180)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

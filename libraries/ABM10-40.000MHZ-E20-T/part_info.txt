@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ABM10-40.000MHZ-E20-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=4.1
+Released=2023-03-14 14:05:47
+Downloaded=2025-07-04 16:25:15
+3D=Y

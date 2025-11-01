@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ANT162442ST1000AM1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ANT162442ST1000AM1")
+        (spec "default")
+    )
+)
